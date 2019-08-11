@@ -33,7 +33,7 @@
   :set DNSdomain [/ip dhcp-server network get value-name=domain number=[/ip dhcp-server find name=$leaseServerName]];
 } on-error={
   :set DNSdomain "";
-};
+}
 
 # If a domain name is not specified will use hostname only
 :if ([:len $DNSdomain] > 0) do={
