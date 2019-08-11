@@ -7,7 +7,6 @@
 #
 # Mikrotik dhcp server globals
 # leaseBound          -- set to "1" if bound, otherwise set to "0"
-
 # leaseServerName -- dhcp server name
 # leaseActMAC - active mac address
 # leaseActIP            -- active IP address
