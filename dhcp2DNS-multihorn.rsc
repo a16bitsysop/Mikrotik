@@ -3,14 +3,14 @@
 #
 # Based on SmartFinn <https://gist.github.com/SmartFinn>
 #
-# Requires read and write permissions
+# Requires read and write script permissions
 #
 # Mikrotik dhcp server globals
-# leaseBound          -- set to "1" if bound, otherwise set to "0"
+# leaseBound      -- set to "1" if bound, otherwise set to "0"
 # leaseServerName -- dhcp server name
-# leaseActMAC - active mac address
-# leaseActIP            -- active IP address
-# lease-hostname    -- client hostname
+# leaseActMAC     -- active mac address
+# leaseActIP      -- active IP address
+# lease-hostname  -- client hostname
 
 :local safeHostname;
 # Delete unallowed chars from the hostname
